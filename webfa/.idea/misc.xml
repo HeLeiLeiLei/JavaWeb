@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/servletreq" />
+    <file type="web" url="file://$PROJECT_DIR$/servletresp" />
     <file type="web" url="file://$PROJECT_DIR$/servletson" />
-    <file type="web" url="file://$PROJECT_DIR$/servletson02" />
     <file type="web" url="file://$PROJECT_DIR$/servletson02" />
     <file type="web" url="file://$PROJECT_DIR$/servletson2" />
   </component>
