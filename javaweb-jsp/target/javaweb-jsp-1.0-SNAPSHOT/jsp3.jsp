@@ -7,9 +7,9 @@
 <%--    @include 标签会将三个页面和二为一--%>
     <%@include file="common/header.jsp" %>
     <h1>网页主体</h1>
-    <%
-        int i=10;
-    %>
+<%--    <%--%>
+<%--        int i=10;--%>
+<%--    %>--%>
     <%@include file="common/footer.jsp" %>
 
     <!--jsp标签-->
