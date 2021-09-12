@@ -13,12 +13,17 @@
 %>
 
 <!--通过pageContext取出我们保存的值-->
+
 <%
+    //从底层到高层() pageContext->request->session->application
+    //jvm 双亲委派机制
     String name1 = (String) pageContext.findAttribute("name1");
     String name2= (String) pageContext.findAttribute("name2");
     String name3= (String) pageContext.findAttribute("name3");
     String name4= (String) pageContext.findAttribute("name4");
     String name5= (String) pageContext.findAttribute("name5");
+
+    pageContext.forward("/pageDemo2.jsp");
 %>
 
 <!--通过EL表达式 来输出-->
